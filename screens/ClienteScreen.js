@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { View, StyleSheet,Image } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import { TextInput, Button, Appbar } from 'react-native-paper';
 import styles from './styles'; // Importando o arquivo de estilos
-
 
 export default function ClienteScreen({ navigation }) {
   const [id, setId] = useState('');
@@ -31,10 +30,7 @@ export default function ClienteScreen({ navigation }) {
       </Appbar.Header>
       <View style={styles.container}>
         <View style={styles.photoContainer}>
-          
-          {/* Aqui você pode adicionar lógica para exibir a foto */
-          <image source={require('./assets/favicon.png')}></image>
-          }
+          {/* Aqui você pode adicionar lógica para exibir a foto */}
           <View style={styles.photo} />
         </View>
         <TextInput
