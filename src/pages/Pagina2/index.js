@@ -10,7 +10,7 @@ import {
   SubmitText
 } from '../Pagina1/styles';
 
-export default function Pàgina2(){
+export default function Pagina2(){
   return(
     <Background>
       <Container
@@ -32,6 +32,7 @@ export default function Pàgina2(){
 
         <AreaInput>
           <Input
+          type="password"
             placeholder="Sua senha"
           />
         </AreaInput>
